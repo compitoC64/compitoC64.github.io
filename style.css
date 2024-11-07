@@ -1,4 +1,7 @@
 #title
 {
 	position: absolute;
+	background-image: linear-gradient(to right, rebeccapurple, red);
+	color: transparent;
+	background-clip: text;
 }
