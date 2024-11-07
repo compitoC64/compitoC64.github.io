@@ -1,2 +1,2 @@
-# compitoC64.github.io
+# Presentazione Commodore 64
 Website per il compito di Sistemi e Reti sul Commodore64
