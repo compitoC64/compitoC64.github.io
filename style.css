@@ -1,7 +1,25 @@
+#sfondo
+{
+	top: 40px;
+	left: 13%;
+	position: absolute;
+}
+
+#c64
+{
+	position: absolute;
+	width: 500px;
+	top: 200px;
+	left: 550px;
+}
+
 #title
 {
+	top: 25px;
+	left: 320px;
 	position: absolute;
 	background-image: linear-gradient(to right, rebeccapurple, red);
 	color: transparent;
 	background-clip: text;
+	scale: 1.5;
 }
