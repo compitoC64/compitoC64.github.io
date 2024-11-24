@@ -2,12 +2,27 @@
 <html>
 	<head>
 		<title>Commodore64</title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style.css"/>
 	</head>
 	<body>
-		<img id="sfondo" src="sfondo.png"/>
-		<img id="c64" src="C64.png"/>
-		<h1 id="title">Commodore 64</h1>
-		<script src="script.js"></script>
+	<div id="move">
+		<button id="left" onclick = moveSlide(-1);>Left</button>
+		<button id="right" onclick = moveSlide(1);>Right</button>
+	</div>
+	<div class="container">
+		<div class="slide">
+			<div class="slides slide0">
+				<h>Commodore 64</h>
+				<img src="c64.png" width="750px"></img>
+			</div>
+			<div class="slides slide1">
+				<p>slide1</p>
+			</div>
+			<div class="slides slide2">
+				<p>slide2</p>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
 	</body>
 </html>
